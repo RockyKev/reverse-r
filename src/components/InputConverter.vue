@@ -13,7 +13,7 @@ export default {
   name: 'InputConverter',
   data() {
       return {
-        message: 'Rad! I am a string'
+        message: 'Life’s but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.'
       }
   },
   computed: {

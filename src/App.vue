@@ -1,6 +1,9 @@
 <template>
   <img alt="Vue logo" src="./assets/korn.jpeg">
+  <h1> R Я converter
   <InputConverter />
+
+
 </template>
 
 <script>
