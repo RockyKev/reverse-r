@@ -28,7 +28,7 @@ export default {
         const betterUppercaseR = 'Я';
         const betterLowercaseR = 'я';
 
-        const newString = this.message.replace(/r/g, betterLowercaseR).replace(/r/g, betterUppercaseR)
+        const newString = this.message.replace(/r/g, betterLowercaseR).replace(/R/g, betterUppercaseR)
 
         return newString;
       }
