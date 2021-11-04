@@ -1,7 +1,7 @@
 <template>
 <br>
 <h2>Your sucky text:</h2>
-<textarea v-model="message" placeholder="add multiple lines" rows="4" cols="50"></textarea>
+<textarea v-model="message" placeholder="add multiple lines" rows="8" cols="100"></textarea>
 <br>
   <UniqueButton />
 <br>
@@ -28,7 +28,7 @@ export default {
         const betterUppercaseR = 'Я';
         const betterLowercaseR = 'я';
 
-        const newString = this.message.replace('r', betterLowercaseR).replace('R', betterUppercaseR)
+        const newString = this.message.replace(/r/g, betterLowercaseR).replace(/r/g, betterUppercaseR)
 
         return newString;
       }
